@@ -13,7 +13,7 @@ function FeatureSection() {
       // }}
     >
       <h2 className="text-2xl font-bold text-center mt-4 mb-4">
-        Safe & Convenient Transaction
+        Safe & Conent Transaction
       </h2>
       <p className="text-center text-gray-600 mb-8 mt-4">
         Want to pay anything so easy with the touch of a finger. Through UNINE,
