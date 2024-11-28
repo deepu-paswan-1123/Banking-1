@@ -14,18 +14,18 @@ const Card2 = () => {
           Keep your cash flow clear and keep increasing 🚀
         </h2>
         <div className="flex justify-between gap-4  box">
-          <div className="mt-6">
-            <IoGlobeSharp className="ml-2 text-3xl" />
-            <h2 className="text-2xl font-semibold mt-4">Galobity</h2>
+          <div className="mt-6 box1">
+            <IoGlobeSharp className=" text-3xl" />
+            <h2 className="text-2xl font-semibold mt-4 ">Galobity</h2>
             <p className="mt-4">
               Lorem, ipsum dolor ipsum dolor sit amet consectetur adipisicing
               elit.{" "}
             </p>
           </div>
           <div className="mt-6">
-            <IoGlobeSharp className=" ml-2 text-3xl" />
-            <h2 className="text-2xl font-semibold mt-4">Intergrate</h2>
-            <p className="mt-4">
+            <IoGlobeSharp className="  text-3xl " />
+            <h2 className="text-2xl font-semibold mt-4 ">Intergrate</h2>
+            <p className="mt-4 ">
               Lorem, ipsum dolor ipsum dolor sit amet consectetur adipisicing
               elit.{" "}
             </p>
