@@ -33,7 +33,7 @@ function Footer() {
         </div>
 
         {/* Links */}
-        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-8">
+        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-5 pt-8">
           <div className="space-y-2 flex flex-col footer">
             <a href="#" className="hover:underline">
               Learn

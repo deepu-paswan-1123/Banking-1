@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowCircleRight } from "react-icons/fa";
+import "../Css/Card2.css"
 
 
 
@@ -19,12 +20,12 @@ const Card1 = () => {
   <p className="text-gray-600 mb-2">
     High interest, FDIC insured checking for individuals and businesses
   </p>
-  <button className="flex items-center pb-16 ">
-  <FaArrowCircleRight className='text-green-600 text-3xl'/>
-    <span className="ml-2 text-black text-xl">Learn more</span>
+  <button className="flex items-center pb-4 balance ">
+  <FaArrowCircleRight className='text-green-600  text-3xl'/>
+    <span className=" text-black text-xl pl-2">Learn more</span>
     
-  <div className="pl-28  p-4">
-    <div className="rounded-xl bg-gray-200 shadow-2xl">
+  <div className=" p-10 ">
+    <div className="rounded-xl bg-gray-200 shadow-2xl ">
       <p className="text-gray-500 text-sm ml-2 mt-2 mb-2 pl-2 pr-3 pt-2">Balance After Payout</p>
       <p className="text-2xl font-semibold ml-3 pb-2 pl-2 card">$3,150.00</p>
     </div>
@@ -34,7 +35,7 @@ const Card1 = () => {
 
       {/* Description Section */}
       <div className="text-center md:text-left w-96 md:w-96">
-        <h2 className="text-2xl font-semibold mb-2 mt-4">Keep your cash flow clear and keep increasing 🚀</h2>
+        <h2 className="text-2xl font-semibold mb-2 mt-4 max-md:p-4">Keep your cash flow clear and keep increasing 🚀</h2>
         <p className="text-gray-600 mb-4 mt-8">
           See it all at a glance when you link your cash accounts, credit cards, investments, and bills.
         </p>
