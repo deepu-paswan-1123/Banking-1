@@ -10,22 +10,22 @@ const Card2 = () => {
     <div className=" mt-20 flex flex-col md:flex-row  items-center justify-center md:justify-around bg-white p-8 rounded-lg space-y-6 md:space-y-0 md:space-x-5 ">
       {/* Description Section */}
       <div className="text-center md:text-left w-96 md:w-96">
-        <h2 className="text-2xl font-semibold mb-2 ">
+        <h2 className="text-2xl font-semibold mb-2 max-md:p-4 ">
           Keep your cash flow clear and keep increasing 🚀
         </h2>
         <div className="flex justify-between gap-4  box">
-          <div className="mt-6">
-            <IoGlobeSharp className="ml-2 text-3xl" />
-            <h2 className="text-2xl font-semibold mt-4">Galobity</h2>
+          <div className="mt-6 box1">
+            <IoGlobeSharp className=" text-3xl" />
+            <h2 className="text-2xl font-semibold mt-4 ">Galobity</h2>
             <p className="mt-4">
               Lorem, ipsum dolor ipsum dolor sit amet consectetur adipisicing
               elit.{" "}
             </p>
           </div>
           <div className="mt-6">
-            <IoGlobeSharp className=" ml-2 text-3xl" />
-            <h2 className="text-2xl font-semibold mt-4">Intergrate</h2>
-            <p className="mt-4">
+            <IoGlobeSharp className="  text-3xl " />
+            <h2 className="text-2xl font-semibold mt-4 ">Intergrate</h2>
+            <p className="mt-4 ">
               Lorem, ipsum dolor ipsum dolor sit amet consectetur adipisicing
               elit.{" "}
             </p>

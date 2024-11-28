@@ -1,5 +1,6 @@
 import React from "react";
 import { BsDiscord, BsInstagram, BsTwitter } from "react-icons/bs";
+import "../Css/Footer.css"
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
           {/* Logo */}
           <div className="text-3xl font-bold">unine</div>
           {/* Social Icons */}
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 md:mt-3 lg:mt-1 sm:mt-3">
             <a href="#" aria-label="Twitter">
              <BsTwitter/>
             </a>
@@ -25,15 +26,15 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="text-center md:text-left space-y-2">
+        <div className="text-center md:text-left space-y-2 footer ">
           <p>Technology Park 8-14</p>
           <p>Marie Curie Street</p>
           <p>08042 Barcelona</p>
         </div>
 
         {/* Links */}
-        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-8">
-          <div className="space-y-2 flex flex-col">
+        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-5 pt-8">
+          <div className="space-y-2 flex flex-col footer">
             <a href="#" className="hover:underline">
               Learn
             </a>
