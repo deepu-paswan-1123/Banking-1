@@ -5,8 +5,8 @@ import Card2 from './components/Cardsectoin2/Card2';
 import Download from './components/Download/Download';
 import Footer from './components/Footer/Footer';
 import AOS from 'aos';
-// import Review from './components/Review/Review';
-import 'aos/dist/aos.css'; // Ensure AOS CSS is imported
+import Review from './components/Review/Review';
+import 'aos/dist/aos.css'; 
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -29,8 +29,8 @@ const App = () => {
       <FeatureSection />
       <Card1 />
       <Card2 />
-      {/* Uncomment below to include the Review section */}
-      {/* <Review /> */}
+
+      <Review />
       <Download />
       <Footer />
     </div>

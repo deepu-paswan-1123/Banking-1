@@ -4,9 +4,9 @@ import "../Css/Footer.css"
 
 function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-black text-white ">
       {/* Main Content */}
-      <div className="container mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center ">
+      <div className="container mx-auto py-10 flex flex-col md:flex-row justify-between items-center ">
         {/* Logo and Social Media Icons */}
         <div className="flex flex-col items-center md:items-start space-y-4">
           {/* Logo */}
@@ -33,7 +33,7 @@ function Footer() {
         </div>
 
         {/* Links */}
-        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-5 pt-8">
+        <div className="flex flex-col md:flex-row gap-10 space-y-4 md:space-y-0 md:space-x-10 text-center md:text-left pb-5 pt-8 ">
           <div className="space-y-2 flex flex-col footer">
             <a href="#" className="hover:underline">
               Learn
