@@ -14,11 +14,9 @@ function FeatureSection() {
       //   backgroundPosition: "center",
       // }}
     >
-      <h2 className="text-2xl font-bold text-center mt-4 mb-4 "
-      data-aos="zoom-in"
-                  data-aos-duration="500"
-                data-aos-once="true">
-        Safe & Convenient Transaction
+
+      <h2 className="text-2xl font-bold text-center mt-4 mb-4">
+        Safe & Convenient Transaction in a safe place
       </h2>
       <p className="text-center text-gray-600 mb-8 mt-4 card1" 
       data-aos="zoom-in"
