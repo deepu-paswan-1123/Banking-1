@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import AOS from 'aos';
 import Review from './components/Review/Review';
 import 'aos/dist/aos.css'; 
+import Navbar from './components/Header/Navbar';
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div>
+      <Navbar/>
       <FeatureSection />
       <Card1 />
       <Card2 />
