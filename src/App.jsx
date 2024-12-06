@@ -8,6 +8,7 @@ import AOS from 'aos';
 import Review from './components/Review/Review';
 import 'aos/dist/aos.css'; 
 import Navbar from './components/Header/Navbar';
+import Hero from './components/Hero/Hero';
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
+      <Hero/>
       <FeatureSection />
       <Card1 />
       <Card2 />
