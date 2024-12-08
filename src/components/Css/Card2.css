@@ -1,7 +1,8 @@
 
 @media(max-width:768px){
     .box{
-        flex-direction: column;
+        flex-direction: row;
+        padding: 30px;
         
     }
 }
