@@ -9,7 +9,12 @@ const Navbar = () => {
     <nav className="bg-black text-white">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div
+          className="flex items-center gap-2 "
+          data-aos="fade-up"
+              data-aos-duration="1400"
+              data-aos-delay="400"
+        >
           <img
             src="https://via.placeholder.com/40"
             alt="Logo"
@@ -19,9 +24,15 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center space-x-6 text-sm">
+        <ul className="hidden md:flex items-center space-x-6 text-sm"data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="600">
           <li>
-            <a href="#learn" className="hover:text-gray-400">
+            <a
+              href="#learn"
+              className="hover:text-gray-400"
+              
+            >
               Learn
             </a>
           </li>
@@ -31,6 +42,9 @@ const Navbar = () => {
             <button
               onClick={() => setIsAppMenuOpen(!isAppMenuOpen)}
               className="hover:text-gray-400 flex items-center gap-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="800" // Add delay here
             >
               App
               <svg
@@ -49,7 +63,12 @@ const Navbar = () => {
               </svg>
             </button>
             {isAppMenuOpen && (
-              <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg">
+              <ul
+                className="absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="1000" // Delay for dropdown
+              >
                 <li className="px-4 py-2 hover:bg-gray-100">
                   <a href="#ios">iOS App</a>
                 </li>
@@ -65,6 +84,9 @@ const Navbar = () => {
             <button
               onClick={() => setIsCommunityMenuOpen(!isCommunityMenuOpen)}
               className="hover:text-gray-400 flex items-center gap-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1000" // Add delay here
             >
               Community
               <svg
@@ -83,7 +105,12 @@ const Navbar = () => {
               </svg>
             </button>
             {isCommunityMenuOpen && (
-              <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg">
+              <ul
+                className="absolute left-0 mt-2 w-40 bg-white text-black rounded-md shadow-lg"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="1200" // Delay for dropdown
+              >
                 <li className="px-4 py-2 hover:bg-gray-100">
                   <a href="#forum">Forums</a>
                 </li>
@@ -94,8 +121,14 @@ const Navbar = () => {
             )}
           </li>
 
-          <li>
-            <a href="#work" className="hover:text-gray-400">
+          <li data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="1400">
+            <a
+              href="#work"
+              className="hover:text-gray-400"
+            
+            >
               Unine at Work
             </a>
           </li>
@@ -103,8 +136,20 @@ const Navbar = () => {
 
         {/* Right Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <button className="text-gray-400 hover:text-white">Sign up</button>
-          <button className="bg-green-500 text-black px-4 py-2 rounded-md hover:bg-green-600">
+          <button
+            className="text-gray-400 hover:text-white"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-delay="1600"
+          >
+            Sign up
+          </button>
+          <button
+            className="bg-green-500 text-black px-4 py-2 rounded-md hover:bg-green-600"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="1800"
+          >
             Get a demo
           </button>
         </div>
@@ -134,13 +179,17 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <ul className="md:hidden flex flex-col space-y-4 p-4 bg-gray-900">
-          <li>
+          <li  data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000">
             <a href="#learn" className="block text-white hover:text-gray-400">
               Learn
             </a>
           </li>
-          <li>
-            <button
+          <li  data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="1200">
+            <button 
               onClick={() => setIsAppMenuOpen(!isAppMenuOpen)}
               className="block text-white hover:text-gray-400"
             >
@@ -157,7 +206,9 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-          <li>
+          <li data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="1400">
             <button
               onClick={() => setIsCommunityMenuOpen(!isCommunityMenuOpen)}
               className="block text-white hover:text-gray-400"
@@ -175,7 +226,9 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-          <li>
+          <li data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-delay="1600">
             <a href="#work" className="block text-white hover:text-gray-400">
               Unine at Work
             </a>

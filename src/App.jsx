@@ -19,17 +19,17 @@ const App = () => {
 
   React.useEffect(() => {
     AOS.init({
-      offset: 100,
-      duration: 900,
-      easing: 'ease-in-sine',
-      delay: 700,
+      once: true, // Animation should only happen once
+      offset: 200, // Adjust animation trigger point
     });
   }, []);
-
+  
   return (
     <div>
+
       <Navbar/>
       <Hero/>
+      
       <FeatureSection />
       <Card1 />
       <Card2 />
