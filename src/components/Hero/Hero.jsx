@@ -9,10 +9,14 @@ const Herosection = () => {
       <div className="container mx-auto px-4 py-16 md:flex items-center">
         {/* Left Content */}
         <div className="flex-1 space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight" data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1000">
             More Payment Options <br /> Better than Cash
           </h1>
-          <p className="text-gray-300 text-lg">
+          <p className="text-gray-300 text-lg" data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="800">
             With UNINE, you can access more than 240 million customers out
             there, as well as offering management tools, options, and payment
             methods.
@@ -21,6 +25,9 @@ const Herosection = () => {
             <a
               href="#"
               className="flex items-center bg-white text-black  rounded-lg shadow-md hover:bg-gray-200"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+              data-aos-delay="600"
             >
               <img
                 src={googleplay}
@@ -32,6 +39,9 @@ const Herosection = () => {
             <a
               href="#"
               className="flex items-center bg-white text-black  rounded-lg shadow-md hover:bg-gray-200"
+              data-aos="fade-up"
+              data-aos-duration="1600"
+              data-aos-delay="400"
             >
               <img
                 src={app}
@@ -41,7 +51,9 @@ const Herosection = () => {
               
             </a>
           </div>
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400" data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-delay="800">
             Excellent <span className="text-green-400 font-bold">4.9 out of 5</span>{" "}
             ⭐⭐⭐⭐⭐
           </p>
@@ -49,7 +61,9 @@ const Herosection = () => {
 
         {/* Right Image */}
         <div className="flex-1 mt-10 md:mt-0 flex justify-center">
-          <div className="relative w-80 h-auto">
+          <div className="relative w-80 h-auto" data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-delay="600">
             {/* Mockup Image */}
             <img
               src={Hero}
